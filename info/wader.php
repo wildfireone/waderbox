@@ -202,7 +202,10 @@ It is heavily :) based on the excellent ScotchBox at scotch.io -->
         <div class="row content">
             <div class="col-md-8 col-md-offset-2 wrap">
                 <h2>Setting up your WADERbox</h2>
-                <p>Directories, like folders on a Macintosh, are used to group files together in a hierarchical structure.</p>
+                <p>Once Vagrant (and virtualbox) is installed, just create a directory where you want to store your virtual environment. I would suggest calling it WaderBox but you can call it anything you like.</p>
+                <p>Download the Vagrant file from <a href="https://raw.githubusercontent.com/wildfireone/waderbox/master/Vagrantfile"> here </a>. Now just drop this file into the directory you just made. (Depending on your browser you may need to copy the text and paste int into note pad. Just make save the file as "Vagrantfile" with no extension.</p>
+                <p>Using the command prompt <b>cd</b> into the directory. And type <b>vagrant up</b>. If all has gone according to plan some text will scroll down the screen telling you that the VM is being set up.</p>
+                <p>Once this has finished, open your browser and type <b>127.0.0.1:8000<</b> in the address bar. You should be presented with a lovely into screen.</p>
             </div>
         </div>
     </div>
