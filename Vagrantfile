@@ -10,6 +10,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
   config.vm.hostname = "waderbox"
+  config.ssh.insert_key = false
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
