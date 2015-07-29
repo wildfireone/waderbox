@@ -8,9 +8,9 @@ Vagrant.configure(2) do |config|
 
   # config.vm.network "private_network", ip: "192.168.33.10"
 
-  config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
   config.vm.hostname = "waderbox"
-  config.ssh.insert_key = false
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
